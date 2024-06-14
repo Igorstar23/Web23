@@ -82,9 +82,11 @@
 
 .search-bar-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding-top:5%;
+    padding-left: 5%;;
+    justify-content: center;
     align-items: center;
+    padding-top:5%;
+    gap: 99px;
 }
 
 .filter-list {
