@@ -87,8 +87,99 @@
     font-size: 32px;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #000;
+    color: black;
 }
+.main-content-text div.description {
+    padding-top: 18px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 729px;
+    max-height: 46px;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+}
+.main-content-text div.description2 {
+    padding-top: 24px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 729px;
+    max-height: 44px;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-content div.grid-container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100%;
+}
+
+.main-content div.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 289px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    align-items: center;
+}
+
+.main-content div.grid-item {
+    height: 600px;
+    border: 3px solid var(--green);
+    background-color: var(--green);
+    border-radius: 8px;
+    overflow: clip;
+}
+
+.grid-item img.img {
+    width: 289px;
+    height: 250px;
+    opacity: 0.7;
+}
+
+.grid-item div.title {
+    width: 253px; 
+    height: 322px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 17px;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.grid-item ul {
+    padding-left: 24px;
+}
+
+.main-content-button-wrapper {
+    padding-top: 48px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.main-content-button {
+    padding-top: -24px;
+    border-radius: 12px;
+    background: var(--green);
+    border-color: var(--green);
+    max-width: 349px;
+    width: 100%;
+    height: 59px;
+    color: var(--blue);
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 23px;
+    text-align: center;
+    color: var(--blue);
+}
+
 
 /*Footer settings*/
 .footer-wrapper {
