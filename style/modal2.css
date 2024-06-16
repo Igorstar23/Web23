@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Inter", sans-serif;
@@ -83,6 +84,120 @@
     align-content: center;
 }
 
+/*Start Modal*/
+.modal-container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100%;
+}
+
+.modal {
+    height: 577px;
+    max-width: 620px;
+    width: 100%;
+    background-color: var(--green);
+    border: 5px solid var(--blue);
+    border-radius: 23px;
+}
+
+.modal div.button-close-container {
+    display: flex;
+    justify-content: flex-end; /* Прижать к правому краю */
+    padding: 20px;
+}
+
+.modal div.button-close {
+    max-width: 16px;
+    width: 100%;
+    height: 16px;
+}
+
+.modal-content {
+    width: 100%;
+    height: 85%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.modal-content-head {
+    padding-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    text-align: center;
+}
+
+.modal-content-head h2 {
+    max-width: 412px;
+    width: 100%;
+    height: 57px;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.modal-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 32px;
+}
+
+.modal-content-left {
+    width: 247px;
+    height: 156px;
+    border: 1px solid var(--blue);
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 117%;
+}
+
+.input-item {
+    max-width: 247px;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 8px;
+}
+
+
+.modal-content-right {
+    width: 282px;
+    height: 312px;
+    border: 1px solid var(--blue);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-right div.head-text {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 284px;
+    width: 100%;
+    height: 63px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.modal-img-wrapper {
+    border-radius: 8px;
+    max-width:  261px;
+    width: 100%;
+    height: 148px;
+}
+
+.modal-content-tail{
+    width: 465px;
+}
+
+/*END MODAL*/
 
 
 /*Footer settings*/
