@@ -74,6 +74,10 @@
     text-decoration: none;
 }
 
+.nav-bar-menu a.nav:hover {
+    color:aquamarine;
+}
+
 .main-content {
     align-content: center;
 }
@@ -172,7 +176,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #00000080;
 }
 
 .modal-container {

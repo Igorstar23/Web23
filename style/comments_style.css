@@ -74,6 +74,10 @@
     text-decoration: none;
 }
 
+.nav-bar-menu a.nav:hover {
+    color:aquamarine;
+}
+
 /*Main Content*/
 
 .main-content {

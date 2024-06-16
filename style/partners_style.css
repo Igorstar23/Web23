@@ -74,6 +74,10 @@
     text-decoration: none;
 }
 
+.nav-bar-menu a.nav:hover {
+    color:aquamarine;
+}
+
 .main-content {
     align-content: center;
 }
@@ -178,6 +182,11 @@
     font-weight: 900;
     font-size: 23px;
     text-align: center;
+}
+
+.main-content-button:hover {
+    background: aquamarine;
+    border: 3px solid var(--blue);
 }
 
 /*Start Modal*/
