@@ -8,22 +8,21 @@
         <script type="text/javascript" src="https://livejs.com/live.js"></script>
     </head>
     <body>
-        <header>
-            <nav class="nav-bar">
-                <div class="nav-logo-wrapper"> 
-                    <img class="nav-logo-img" src="./Assets/Logo.png">
-                    <span class="nav-tittle">CodeCourse</span>
+        <nav class="nav-bar">
+            <div class="nav-bar-content">
+                <div class="nav-bar-content-logo">
+                    <img class="logo" src="./Assets/Logo.png">
+                    <span class="tittle">CodeCourse</span>
                 </div>
-                <div class="nav-menu-wrapper">
-                    <span class="nav-menu-item"><a class="pages" href="">Головна</a></span>
-                    <span class="nav-menu-item"><a class="pages" href="course.html">Курси</a></span>
-                    <span class="nav-menu-item"><a class="pages" href="partners.html">Партнерство</a></span>
-                    <span class="nav-menu-item"><a class="pages" href="comments.html">Відгуки</a></span>
+                <div class="nav-bar-menu">
+                    <a class="nav" href="index.html">Головна</a>
+                    <a class="nav" href="course.html">Курси</a>
+                    <a class="nav" href="partners.html">Партнерство</a>
+                    <a class="nav" href="comments.html">Відгуки</a>
                 </div>
-
-                <div class="menu-button"></div>
-            </nav>
-        </header>
+                <div class="menu-button">☰</div>
+            </div>
+        </nav>
 
         <div class="main">
             <div class="main-content">
@@ -41,7 +40,7 @@
                         <div class="main-content-number-big">#1</div>
                     </div>
                     <div class="main-content-carusel-item">
-                        <img class="prev" src="./Assets/JavaScript-Logo.png"/>
+                        <img class="prev" src="./Assets/jaba.jpg"/>
                         <div class="main-content-number">#3</div>
                     </div>
                     <svg width="23" height="40" viewBox="0 0 23 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,24 +59,32 @@
         </div>
 
 
-        <footer class="footer">
+        <footer class="footer-wrapper">
             <div class="footer-content">
-                <div class="footer-content-item-logo">
-                    <img class="logo" src="./Assets/Logo.png" />
-                    <div class="logo-text">CodeCourse</div>
+                <div class="footer-logo">
+                    <img class="logo" src="./Assets/Logo.png">
+                    <span class="tittle">CodeCourse</span>
                 </div>
-                <div class="footer-content-item-nav">
-                    <ul>
-                        <li><span class="nav-menu-item"><a class="pages-footer" href="">Головна</a></span></li>
-                    </br>
-                        <li><span class="nav-menu-item"><a class="pages-footer" href="course.html">Курси</a></span></li>
-                    </br>
-                        <li><span class="nav-menu-item"><a class="pages-footer" href="partners.html">Партнерство</a></span></li>
-                    </br>
-                        <li><span class="nav-menu-item"><a class="pages-footer" href="comments.html">Відгуки</a></span></li>
-                    </ul>
-                </div>
-                <div class="footer-content-item">
+                <div class="footer-text">
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <a class="nav" href="index.html">Головна</a>
+                            </li>
+                        </br>
+                            <li>
+                                <a class="nav" href="course.html">Курси</a>
+                            </li>
+                        </br>
+                            <li>
+                                <a class="nav" href="partners.html">Партнерство</a>
+                            </li>
+                        </br>
+                            <li>
+                                <a class="nav" href="comments.html">Відгуки</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="addr">
                         <p>Наша адреса:</p>
                         </br>
@@ -90,15 +97,13 @@
                         <p>e-mail:</p>
                         <p>codecourse@ukr.net</p>
                     </div>
-                </div>
-                <div class="footer-content-item">
                     <div class="phone">
                         <p>Телефон:</p>
                         </br>
                         <p>
                             Основний
                             </br> 
-                            095 555 95 33
+                            095 777 95 23
                         </p>
                         </br>
                         <p>
@@ -107,11 +112,11 @@
                             066 849 10 89
                         </p>
                     </div>
-                </div>
-                <div class="footer-content-item-icon">
-                    <img class="image" src="./Assets/Instagram.png" />
-                    <img class="image" style="border-radius: 18px" src="./Assets/Telegram.png" />
-                    <img class="image" src="./Assets/Facebook.png" />
+                    <div class="icon">
+                        <img class="image" src="./Assets/Instagram.png" />
+                        <img class="image" style="border-radius: 18px" src="./Assets/Telegram.png" />
+                        <img class="image" src="./Assets/Facebook.png" />
+                    </div>
                 </div>
             </div>
         </footer>
